@@ -1,0 +1,19 @@
+name: mayuyu
+channels:
+  - dglteam
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  - dgl-cuda11.6
+  - pytorch
+  - pytorch-cuda=11.6
+  - pandas
+  - scikit-learn
+  - tensorboard
+  - pip
+  - pip:
+      - gdown
+      - torch-tb-profiler
+      - tensorflow

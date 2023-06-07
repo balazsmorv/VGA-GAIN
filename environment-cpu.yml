@@ -1,0 +1,18 @@
+name: mayuyu_cpu
+channels:
+  - dglteam
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - dgl
+  - pytorch
+  - cpuonly
+  - pandas
+  - scikit-learn
+  - tensorboard 
+  - pip
+  - pip:
+      - gdown
+      - torch-tb-profiler
+      - tensorflow
